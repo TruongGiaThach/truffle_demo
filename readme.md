@@ -4,7 +4,7 @@ install
     
     - truffle
     
-    - ganache-cli
+    - ganache-cli ( optional )
 
 run 
 
@@ -15,3 +15,9 @@ run
     '$ truffle test' to run testcase
   
     '$ truffle develop' to interact with contract
+
+test on testnet
+
+    install metamask extention and create account on Ropsten Testnet
+    '$ npm install --save-dev @truffle/hdwallet-provider'
+    '$ truffle  truffle migrate --network ropsten'
